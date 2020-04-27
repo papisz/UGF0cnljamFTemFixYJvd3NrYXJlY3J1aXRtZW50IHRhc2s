@@ -1,0 +1,88 @@
+{
+    "cities": {
+        "london": {
+            "base": "stations",
+            "clouds": {
+                "all": 75
+            },
+            "cod": 200,
+            "coord": {
+                "lat": 51.51,
+                "lon": -0.13
+            },
+            "dt": 1588016537,
+            "id": 2643743,
+            "main": {
+                "humidity": 62,
+                "pressure": 1006,
+                "temp": 287.71,
+                "temp_max": 289.82,
+                "temp_min": 285.37
+            },
+            "name": "London",
+            "sys": {
+                "country": "GB",
+                "id": 1414,
+                "message": 0,
+                "sunrise": 1587962349,
+                "sunset": 1588015007,
+                "type": 1
+            },
+            "visibility": 10000,
+            "weather": [
+                {
+                    "description": "broken clouds",
+                    "icon": "04n",
+                    "id": 803,
+                    "main": "Clouds"
+                }
+            ],
+            "wind": {
+                "deg": 70,
+                "speed": 6.2
+            }
+        },
+        "warsaw": {
+            "base": "stations",
+            "clouds": {
+                "all": 5
+            },
+            "cod": 200,
+            "coord": {
+                "lat": 52.23,
+                "lon": 21.01
+            },
+            "dt": 1588016806,
+            "id": 756135,
+            "main": {
+                "humidity": 35,
+                "pressure": 1010,
+                "temp": 286.73,
+                "temp_max": 287.59,
+                "temp_min": 284.82
+            },
+            "name": "Warsaw",
+            "sys": {
+                "country": "PL",
+                "id": 1713,
+                "message": 0,
+                "sunrise": 1587957157,
+                "sunset": 1588010053,
+                "type": 1
+            },
+            "visibility": 10000,
+            "weather": [
+                {
+                    "description": "clear sky",
+                    "icon": "01n",
+                    "id": 800,
+                    "main": "Clear"
+                }
+            ],
+            "wind": {
+                "deg": 150,
+                "speed": 2.1
+            }
+        }
+    }
+}

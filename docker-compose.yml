@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    weather:
+        image: weather
+        environment: 
+            - WEATHER_WEATHERSRCAPIKEY=${WEATHER_WEATHERSRCAPIKEY}
+            - WEATHER_LISTEN=${WEATHER_LISTEN}
